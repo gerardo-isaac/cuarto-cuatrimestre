@@ -7,7 +7,22 @@
 print("\033c")
 
 #Implementar el paradigma estructurado
+ print("\033c")
+class Coches:
+    marca=""
+    color=" Blanco"
+    modelo=""
+    velocidad=100
+    potencia=0
+    asientos=0 
 
+    def acelerar(self):
+        self.velocidad+=1
+        print(f"Ahora la velocidad final es :{self.velocidad}")
+        
+    def frenar(self):
+        self.velocidad-=1
+        print(f"Ahora la velocidad final es :{self.velocidad}")
 
 
 
